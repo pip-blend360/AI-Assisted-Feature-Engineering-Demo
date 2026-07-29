@@ -8,13 +8,13 @@
 
 ## Overview
 
-You'll watch a live demonstration of how AI (Claude), based on a user prompt, generates a production-ready markdown. This will be  be fed into Snowflake Coco to automatically generate a feature-engineering pipeline for marketing analytics/ Customer LifeTime value. You'll see markdown and code generation, validation, and deployment in real-time.
+During this session you'll participate in a live demonstration of how AI, based on a user prompts, generates a production-ready data pipeline for feature engineering in Snowflake for marketing analytics/ Customer LifeTime value. You'll see markdown and code generation, validation, and deployment in real-time.
 
 **What you'll need:**
 
 
 - A Snowflake account with access to the demo dataset
-- 
+- Snowflake CoCo desktop 
 - Claude API access (preferably via VSCode, if not via Claude.ai)
 - Superpowers (brainstorming) installed
 
