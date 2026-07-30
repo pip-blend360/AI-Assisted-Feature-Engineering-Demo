@@ -29,9 +29,7 @@ graph TD
 
 ---
 
-## Snowflake Access
-
-### What You Need
+## Setting up Snowflake
 
 You must have your own **Snowflake account** with access to the **SANDBOX** database and **OLIST** schema.
 
@@ -53,7 +51,7 @@ select * from SANDBOX.OLIST.ORDERS limit 100;
 Check your role/permissions (ask your Snowflake admin)
 
 ---
-### Setting up CoCo
+## Setting up CoCo
 Once you launch CoCo, you will see this screen. Follow the instructions (it's easy)
 ![alt text](images/image.png)
 
@@ -71,11 +69,21 @@ Test:
 
 ---
 
-### Github Repo Instructions
+## Github Repo Instructions
 
 You will fork repo: https://github.com/pip-blend360/AI-Assisted-Feature-Engineering-Demo.git. 
 
-You can choose one of the following options:
+### Branches
+
+There are four branches in the repo, choose the branch that you would like to try:
+
+1. 🪹 `main` - no instructions file, make your own! 
+2. 🎯`Aaron` - This approach generates a generic, data-agnostic, markdown that can be used with any given dataset and then feed into Snowflake Coco with few extra documentation.
+3. 🫧 `David` -
+4. 🌱 `Pip` - Minimilist approach, give as few instructions as possible. Make Superpowers do the work.
+
+### Forking options
+You can choose one of the following options. 
 
 1. Fork the repository and push your work to your own GitHub account (preferred), or
 
