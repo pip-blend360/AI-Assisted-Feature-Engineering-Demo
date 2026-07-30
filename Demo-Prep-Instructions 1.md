@@ -8,26 +8,24 @@
 
 ## Overview
 
-During this session you'll participate in a live demonstration of how AI, based on a user prompts, generates a production-ready data pipeline for feature engineering in Snowflake for marketing analytics/ Customer LifeTime value. You'll see markdown and code generation, validation, and deployment in real-time.
+During this session you'll participate in a live demonstration of how AI, based on your prompts, generates a production-ready data pipeline for feature engineering in Snowflake. The use case will be for marketing analytics/ Customer Lifetime value in a retail situation. 
+
+The work flow will be 
+
+```mermaid
+graph TD
+    A[Use Superpowers to create a plan based on one of the three prompts] --> B[Feed plan to CoCo to create features, pipeline, & metadata]
+```
 
 **What you'll need:**
 
 
-- A Snowflake account with access to the demo dataset
-- Snowflake CoCo desktop 
-- Claude API access (preferably via VSCode, if not via Claude.ai)
-- Superpowers (brainstorming) installed
+- A Snowflake account with access to the demo datasets. Instructions below.
+- Github account - Instructions below
+- [Snowflake CoCo desktop](https://www.snowflake.com/en/product/snowflake-coco/)
+- [Claude API access](https://code.claude.com/docs/en/overview)
+- [Claude Superpowers plugin](https://claude.com/plugins/superpowers)
 
-
----
-
-## Pre-Demo Checklist
-
-Complete these steps **before the demo starts** so you can follow along smoothly:
-
-- [ ] Claude running with superpowers
-- [ ] Snowflake account access confirmed
-- [ ] Access to SANDBOX / OLIST dataset verified
 
 ---
 
@@ -44,14 +42,46 @@ You must have your own **Snowflake account** with access to the **SANDBOX** data
 3. Once logged in, look for the database: **`SANDBOX`**
 4. Within SANDBOX, navigate to the schema: **`OLIST`**
 5. You should see multiple tables in the OLIST schema (all will be used for the demo)
+6. test:
+
+```SQL 
+USE WAREHOUSE SNOWFLAKE_LEARNING_WH; 
+select * from SANDBOX.OLIST.ORDERS limit 100;
+```
 
 **If you don't see the database or schema:**
-- Check your role/permissions (ask your Snowflake admin)
+Check your role/permissions (ask your Snowflake admin)
 
-### What to Do During Demo
+---
 
-During the demo, you'll see generated SQL queries running against the OLIST tables. You can:
-- Read along as SQL executes
-- Copy queries for later review
-- Ask questions about what you see
+### Github Repo Instructions
+
+You will fork repo: https://github.com/pip-blend360/AI-Assisted-Feature-Engineering-Demo.git. 
+
+You can choose one of the following options:
+
+1. Fork the repository and push your work to your own GitHub account (preferred), or
+
+```
+git clone https://github.com/YOUR-USERNAME/REPOSITORY-NAME.git
+cd REPOSITORY-NAME
+git remote add upstream https://github.com/ORIGINAL-OWNER/REPOSITORY-NAME.git
+git checkout -b my-work
+git add .
+git commit -m "My changes"
+git push origin my-work
+```
+
+2. Create a new branch in my repository and push your work there.
+
+```
+git checkout -b my-new-branch
+git add .
+git commit -m "My changes"
+git push -u origin my-new-branch
+```
+
+Please do not push directly to the main branch of my repository (you cannot anyway).
+
+
 
