@@ -55,19 +55,19 @@ Check your role/permissions (ask your Snowflake admin)
 ---
 ### Setting up CoCo
 Once you launch CoCo, you will see this screen. Follow the instructions (it's easy)
-![alt text](image.png)
+![alt text](images/image.png)
 
 When you click on your avitar, click on account:
-![alt text](image-1.png)
+![alt text](images/image-1.png)
 
 And then click on "View Account Details"
 
-![alt text](image-2.png)
+![alt text](images/image-2.png)
 
 Copy information from there.
 
 Test:
-![alt text](image-3.png)
+![alt text](images/image-3.png)
 
 ---
 
