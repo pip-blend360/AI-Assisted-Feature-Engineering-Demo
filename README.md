@@ -10,6 +10,8 @@ What you need to go through this demo is in the file Demo-Prep-Instructions 1.md
 
 The situation is retail, we want to create an exhaustive feature engineering pipeline to train customer-level models such as churn, Lifetime Value, and segmentation.
 
+As usual with a large retailer the transactions data is not all in one table. The schema for this situation is in the background folder, data_dictionary.md. However, this is not intended for we human's to read. Let the AI do it.
+
 During this demo we will only do the feature engineering, not feature selection, or model training.
 
 Feature engineering is often a very tedious and time consuming process. Some describe data-wrngling to be 80% of the work during model training.
