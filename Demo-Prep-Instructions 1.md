@@ -14,7 +14,7 @@ The work flow will be
 
 ```mermaid
 graph TD
-    A[Use Superpowers to create a plan based on one of the three prompts] --> B[Feed plan to CoCo to create features, pipeline, & metadata]
+    A[Use Superpowers to create a plan based on your prompt] --> B[Feed plan to CoCo to create features, pipeline, & metadata]
 ```
 
 **What you'll need:**
@@ -22,7 +22,7 @@ graph TD
 
 - A Snowflake account with access to the demo datasets. Instructions below.
 - Github account - Instructions below
-- [Snowflake CoCo desktop](https://www.snowflake.com/en/product/snowflake-coco/)
+- [Snowflake CoCo desktop](https://www.snowflake.com/en/product/snowflake-coco/) (Cortex Code) - Instructions below
 - [Claude API access](https://code.claude.com/docs/en/overview)
 - [Claude Superpowers plugin](https://claude.com/plugins/superpowers)
 
@@ -51,6 +51,23 @@ select * from SANDBOX.OLIST.ORDERS limit 100;
 
 **If you don't see the database or schema:**
 Check your role/permissions (ask your Snowflake admin)
+
+---
+### Setting up CoCo
+Once you launch CoCo, you will see this screen. Follow the instructions (it's easy)
+![alt text](image.png)
+
+When you click on your avitar, click on account:
+![alt text](image-1.png)
+
+And then click on "View Account Details"
+
+![alt text](image-2.png)
+
+Copy information from there.
+
+Test:
+![alt text](image-3.png)
 
 ---
 
