@@ -66,6 +66,7 @@ And then click on "View Account Details"
 Copy information from there.
 
 Test:
+
 <img src="images/image-3.png" alt="Screenshot" width="50%">
 
 ---
