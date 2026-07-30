@@ -23,7 +23,7 @@ graph TD
 - A Snowflake account with access to the demo datasets. Instructions below.
 - Github account - Instructions below
 - [Snowflake CoCo desktop](https://www.snowflake.com/en/product/snowflake-coco/) (Cortex Code) - Instructions below
-- [Claude API access](https://code.claude.com/docs/en/overview)
+- [Claude CLI or desktop](https://code.claude.com/docs/en/overview)
 - [Claude Superpowers plugin](https://claude.com/plugins/superpowers)
 
 
@@ -35,7 +35,10 @@ You must have your own **Snowflake account** with access to the **SANDBOX** data
 
 ### Accessing Snowflake
 
-1. Go to: **https://app.snowflake.com**
+If you don't know how to get a Snowflake account setup, ask your supervisor.
+
+
+1. Go to: **https://app.snowflake.com**. Or you should be able to find a snowflake icon on your [myapps page.](https://myapps.microsoft.com/)
 2. Log in with the company credentials
 3. Once logged in, look for the database: **`SANDBOX`**
 4. Within SANDBOX, navigate to the schema: **`OLIST`**
@@ -54,18 +57,19 @@ Check your role/permissions (ask your Snowflake admin)
 ## Setting up CoCo
 Once you launch CoCo, you will see this screen. Follow the instructions (it's easy)
 
-<img src="images/image.png" alt="Screenshot" width="50%">
+<img src="images/image.png" alt="Screenshot" width="40%">
 
-When you click on your avitar, click on account:
+When you click on your avitar, click on C2GPARTNERS under account:
+
 <img src="images/image-1.png" alt="Screenshot" width="50%">
 
-And then click on "View Account Details"
+And then click on "🔗 View Account Details"
 
 <img src="images/image-2.png" alt="Screenshot" width="50%">
 
 Copy information from there.
 
-Test:
+Test your connection by asking it to do something:
 
 <img src="images/image-3.png" alt="Screenshot" width="50%">
 
