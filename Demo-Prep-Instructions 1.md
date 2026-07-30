@@ -85,7 +85,7 @@ There are four branches in the repo, choose the branch that you would like to tr
 
 1. 🪹 `main` - no instructions file, make your own! 
 2. 🎯`Aaron` - This approach generates a generic, data-agnostic, markdown that can be used with any given dataset and then feed into Snowflake Coco with few extra documentation.
-3. 🫧 `David` - Multi-agent workflow with highly technical, very prescriptive specifications that define exact implementation patterns. David is very detailed.
+3. 🫧 `David` - Multi-agent workflow with highly technical, very prescriptive specifications that define exact implementation patterns. David is very detailed. [David](https://github.com/pip-blend360/AI-Assisted-Feature-Engineering-Demo/tree/David)
 4. 🌱 `Pip` - Minimilist approach, give as few instructions as possible. Make Superpowers do the work.
 
 ### Forking options
